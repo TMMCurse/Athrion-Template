@@ -146,7 +146,14 @@ namespace Athrion.Utilities
             lasttouch = asfdsds;
             lasttoruchruight = purebordem;
         }
-
+        
+        public static void SpeedBoost()
+        {
+        public static int speedboostCycle = 1;
+        public static float jspeed = 7.5f;
+        public static float jmulti = 1.1f;
+        }
+        
         public static void ClimbAssist()
         {
             var ply = GorillaLocomotion.Player.Instance;
