@@ -20,7 +20,7 @@ namespace Athrion.Core
     {
         public class Config
         {
-            public string MenuName { get; set; } = "Athrion";
+            public string MenuName { get; set; } = "nugget";
             public Color MenuTitleColor { get; set; } = Color.white; // Change to Color32 Simply if needed! Example: new Color32(212, 185, 150, 255);
             public Color ButtonEnabledColor { get; set; } = new Color32(212, 185, 150, 255);
             public Color ButtonDisabledColor { get; set; } = new Color32(160, 120, 85, 255);
