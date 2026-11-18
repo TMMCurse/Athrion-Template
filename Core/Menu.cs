@@ -86,6 +86,7 @@ namespace Athrion.Core
                 new Button("Leap Behind", true, Utilities.Utils.LeapBehind),
                 new Button("Ironman", true, Utilities.Utils.IronManFlight),
                 new Button("Sandbox Cube", true, ObjectSpawner.spawnblockorwtv),
+                new Button("Speed Boost", true, 
             }},
             { "Guardian", new Button[] {
                 new Button("Home", false, Athrion.Core.Handlers.Categories.Home),
